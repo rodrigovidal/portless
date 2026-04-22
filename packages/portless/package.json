@@ -1,7 +1,7 @@
 {
-  "name": "portless",
-  "version": "0.10.3",
-  "description": "Replace port numbers with stable, named .localhost URLs. For humans and agents.",
+  "name": "@rodrigovidal/portless",
+  "version": "0.10.4",
+  "description": "Replace port numbers with stable, named .localhost URLs. For humans and agents. Fork with h2c (gRPC) upstream support.",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -42,15 +42,15 @@
     "proxy",
     "localhost"
   ],
-  "author": "Vercel Labs",
+  "author": "Rodrigo Vidal",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vercel-labs/portless.git"
+    "url": "https://github.com/rodrigovidal/portless.git"
   },
-  "homepage": "https://portless.sh",
+  "homepage": "https://github.com/rodrigovidal/portless#readme",
   "bugs": {
-    "url": "https://github.com/vercel-labs/portless/issues"
+    "url": "https://github.com/rodrigovidal/portless/issues"
   },
   "devDependencies": {
     "@types/node": "^20.11.0",
